@@ -1,0 +1,3 @@
+/home/aveber/Desktop/git-projects/AV/build/CMakeFiles/AV.dir
+/home/aveber/Desktop/git-projects/AV/build/CMakeFiles/edit_cache.dir
+/home/aveber/Desktop/git-projects/AV/build/CMakeFiles/rebuild_cache.dir

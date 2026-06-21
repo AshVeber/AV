@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/AV.dir/link.d CMakeFiles/AV.dir/src/main.cpp.o -o AV
