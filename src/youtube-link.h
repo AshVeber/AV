@@ -15,3 +15,7 @@ inline void YTlink(){
 
     system(command); 
 }
+
+inline void install() {
+    //search about how to do it manually 
+}
