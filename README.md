@@ -1,5 +1,5 @@
 # AV
-To Do List is a C++ 100% terminal, open source, independent project for automazing your daily routing that simpler, more low weight with readable code.
+AV is a C++ 100% terminal, open source, independent project for automazing your daily routing that simpler, more low weight with readable code.
 
 It provides the new features for spend your time with fun and improve your terminal skills. AV is a terminal chat where you can automaze your routing. Type 'help' for more information about it!
 
