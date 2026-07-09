@@ -1,5 +1,5 @@
 # AV
-AV is a C++ 100% terminal, open source, independent project for automazing your daily routing that simpler, more low weight with readable code.
+AV is a C++ 100% Linux terminal, open source, independent project for automazing your daily routing that simpler, more low weight with readable code.
 
 It provides the new features for spend your time with fun and improve your terminal skills. AV is a terminal chat where you can automaze your routing. Type 'help' for more information about it!
 
@@ -71,62 +71,6 @@ mkdir build && cd build
 cmake ..
 make
 ./AV
-```
-*ENJOY!*
-
-
-## WINDOWS (not tested)
-*Required dependencies: git, VScode, CMake*
-
-### Step 1:
-
-*Install git*
-> https://git-scm.com/install/windows
-
-*Install VScode*
-> https://code.visualstudio.com/download?_exp_download=fb315fc982
-
-*Install CMake*
->https://cmake.org/download/
-
-### Step 2:
-- Run the VScode.
-- Download "CMake Tools" and "C/C++ Extension Pack" from Extensions (CTRL+SHIFT+X)
-- Create folder.
-- Create ".vscode" folder in previous folder.
-- Open VScode and create "tasks.json" in ".vscode" and write this:
-```
-  {
-    "version":"2.0.0",
-    "tasks": [
-        {
-            "label":"Build and Run C++",
-            "type":"shell",
-            "command":"g++",
-            "args": ["${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe", "&&", "${fileDirname}\\${fileBasenameNoExtension}.exe"],
-            "problemMatcher":["$gcc"],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        }
-    ]
-}
-```
-### Step 3:
-Clone the repository using git
-```
-# Bash
-git clone <REPOSITORY>
-```
-Write this commands
-```
-# Bash
-cd <YOUR_PATH_TO_REPOSITORY>
-mkdir build
-cd build
-cmake ..
-cmake --build .
 ```
 *ENJOY!*
 
