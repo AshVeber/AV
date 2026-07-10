@@ -39,9 +39,10 @@ int main() {
         if(input.find("spotify") != std::string::npos && input.find("open") != std::string::npos || input.find("spotify") != std::string::npos) {
             std::cout << "I am on it, sir." << std::endl;
             system("spotify");
-        }else if(input.find("find on youtube") != std::string::npos){
-            size_t pos = input.find("find on youtube ");
-            conv_input = input.substr(pos + 16);
+        }else if(input.find("find") != std::string::npos && input.find("on") != std::string::npos && input.find("youtube") != std::string::npos){
+            size_t pos = input.find("find") + 4;
+            size_t pos1 = input.find(" on youtube", pos);
+            conv_input = input.substr(pos, pos1 - pos);
             YTlink();
         }
     }
