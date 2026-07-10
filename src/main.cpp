@@ -1,3 +1,4 @@
+#include <cstddef>
 #include <iostream>
 #include <string>
 #include <cctype>
@@ -5,6 +6,7 @@
 #include <cstdlib>
 
 #include "youtube-link.h"
+#include "global_variables.h"
 
 int main() {
     std::string input;
@@ -37,8 +39,9 @@ int main() {
         if(input.find("spotify") != std::string::npos && input.find("open") != std::string::npos || input.find("spotify") != std::string::npos) {
             std::cout << "I am on it, sir." << std::endl;
             system("spotify");
-        }else if(input.find("youtube")){
-            std::cout << "'YouTube search' is ON. sir" << std::endl;
+        }else if(input.find("find on youtube") != std::string::npos){
+            size_t pos = input.find("find on youtube ");
+            conv_input = input.substr(pos + 16);
             YTlink();
         }
     }

@@ -1,16 +1,14 @@
 #pragma once
 #include <iostream>
+#include "global_variables.h"
 
 inline void YTlink(){
-    std::cout << "search for ";
-    std::string a;
-    getline(std::cin, a);
-    for(int i = 0; i < a.length(); ++i){
-        if(a[i] == ' '){
-            a[i] = '+';
+    for(int i = 0; i < conv_input.length(); ++i){
+        if(conv_input[i] == ' '){
+            conv_input[i] = '+';
         }
     }
-    std::string y = "firefox https://www.youtube.com/results?search_query=" + a ;
+    std::string y = "firefox https://www.youtube.com/results?search_query=" + conv_input ;
     const char* command = y.c_str();
 
     system(command); 
