@@ -8,10 +8,9 @@ inline void YTlink(){
             conv_input[i] = '+';
         }
     }
-    std::string y = "firefox https://www.youtube.com/results?search_query=" + conv_input ;
-    const char* command = y.c_str();
+    std::string y = "firefox \"https://www.youtube.com/results?search_query=" + conv_input + "\" &";
 
-    system(command); 
+    system(y.c_str()); 
 }
 
 inline void install() {
