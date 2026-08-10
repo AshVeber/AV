@@ -105,6 +105,15 @@ make
 ```
 *ENJOY!*
 
+# !SPECIALLY FOR LINUX USERS!
+## You can write these simple commands to open program whenever you are
+```
+# Bash
+sudo ln <PATH_TO_THE_PROGRAM> /usr/bin/av
+chmod +x <PATH_TO_THE_PROGRAM>
+```
+You can just write 'av' for run the program!
+
 # ABOUT OWNER
 ## *Ash Veber*
 The young prorammer with huge potential! Ash interests ML engineering, devops, backend, frontend and ...BLENDER!
