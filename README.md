@@ -105,7 +105,7 @@ make
 ```
 *ENJOY!*
 
-# !SPECIALLY FOR LINUX USERS!
+# ! SPECIALLY FOR LINUX USERS !
 ## You can write these simple commands to open program whenever you are
 ```
 # Bash
